@@ -88,7 +88,7 @@ For other users pre-made configuration files will be added in the future. Please
 
 ### Vim-airline Theme
 
-1.  Copy autoload/airline/themes/dzo.vim to:
+1.  Copy `autoload/airline/themes/dzo.vim` to:
 
     ```
     ~/.vim/autload/airline/themes/dzo.vim
