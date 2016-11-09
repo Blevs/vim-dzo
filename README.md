@@ -1,6 +1,6 @@
 # dzo.vim
 
-A dark colourscheme for Vim based on a custom pallette. It aims to be selective
+A dark color scheme for Vim based on a custom palette. It aims to be selective
 in its use of color and contrast. Compared to other themes it doesn't pack your
 editor full of a full spectrum of colors.
 
@@ -15,7 +15,7 @@ shares some colors with vim-hybrid:
 
 Which is, in turn, built on top of:
 
--	[Tomorrow-Night](https://github.com/chriskempson/vim-tomorrow-theme)'s pallete.
+-	[Tomorrow-Night](https://github.com/chriskempson/vim-tomorrow-theme)'s palette.
 -	[Jellybeans](https://github.com/nanotech/jellybeans.vim)' syntax group highlighting.
 -	[Solarized](https://github.com/altercation/vim-colors-solarized)'s vimscript.
 
@@ -68,24 +68,50 @@ For other users pre-made configuration files will be added in the future. Please
 
 ### Vim Theme
 
-1.  Copy colors/dzo.vim to:
+1.  Copy `colors/dzo.vim` to:
 
     ```
     ~/.vim/colors/dzo.vim
     ```
 
-    or alternatively, use a plugin manger such as
+    Or, alternatively, use a plugin manger such as
     [vim-plug](https://github.com/junegunn/vim-plug),
     [NeoBundle](https://github.com/Shougo/neobundle.vim),
     [Vundle](https://github.com/gmarik/Vundle.vim), or
     [Pathogen](https://github.com/tpope/vim-pathogen).
 
-2.  Add to ~/.vimrc:
+2.  Add to `~/.vimrc`:
 
     ```vim
     colorscheme dzo
     ```
 
+### Vim-airline Theme
+
+1.  Copy autoload/airline/themes/dzo.vim to:
+
+    ```
+    ~/.vim/autload/airline/themes/dzo.vim
+    ```
+
+    Or use a plugin manager mentioned above.
+
+2. Add the following to your `~/.vimrc`:
+
+    ```vim
+    let g:airline_theme='myterm'
+    ```
+
+3. (Optional) Add the following settings to remove the default separators, or
+modify them to your liking.
+
+    ```vim
+    let g:airline_symbols = {}
+    let g:airline_left_sep=''
+    let g:airline_right_sep=''
+    let g:airline_left_alt_sep = ''
+    let g:airline_right_alt_sep = ''
+    ```
 ## Screenshots
 
 ![syntax.txt](http://i.imgur.com/f0AVcKU.png)
