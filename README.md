@@ -1,4 +1,4 @@
-# dzo.vim
+# vim-dzo
 
 A dark color scheme for Vim based on a custom palette. It aims to be selective
 in its use of color and contrast. Compared to other themes it doesn't pack your
